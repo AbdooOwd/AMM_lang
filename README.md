@@ -21,7 +21,11 @@ You could say that ***A--*** works like a normal programming language, it just l
 a **BUNCH** of features, but it is a programming language for fun, so (:.
 
 ### How does A-- run?
+<<<<<<< HEAD
 Unlike other programming languages, that usually use ***C-lang*** as a "base" you could say,
+=======
+Unlike other programming languages, that usually use ***C-lang*** as a "base" you could say,
+>>>>>>> 672be123a5903ac33080212f3abd03ea922fabc5
 ***A--*** actually uses Python as a base.
 
 There is a Python script called `runner.py`, it is the file/script that will run the `.amm`
