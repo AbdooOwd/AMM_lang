@@ -1,4 +1,4 @@
 # hahaa
 
-.vscode/
-experimentspy
+./.vscode/*
+./experiments.py
