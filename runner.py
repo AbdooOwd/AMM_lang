@@ -5,6 +5,7 @@ import sys
 known_keywords = [
     "whatif",
     "orelse",
+    "endif",
     "log"
 ]
 
@@ -47,6 +48,8 @@ def run(file, program):
                         double_quotes_count = 0
                         
                         pause_scan = False
+                        
+                        continue
                 
                 case "whatif":
                     pass
@@ -57,9 +60,10 @@ def run(file, program):
         
         if pause_scan == False:
             keyword += char
+            keyword.strip()
         
         
-        if char in [";", "\n"]:
+        if char == ";":
             keyword = ""
             continue
 
